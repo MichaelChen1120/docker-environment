@@ -1,0 +1,9 @@
+# VS Code 設定檔案
+.vscode/
+
+# 其他常見忽略項目
+__pycache__/
+*.pyc
+*.log
+node_modules/
+.env
