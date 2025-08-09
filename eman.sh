@@ -20,7 +20,7 @@ c_compiler_version() {
 }
 
 c_compiler_example() {
-    EX_DIR="/ubuntu-base/lab0/c_cpp"
+    EX_DIR="/ubuntu-base/example/c_cpp"
     pushd "$EX_DIR" > /dev/null
     make clean && make all && make run
     popd > /dev/null
@@ -36,7 +36,7 @@ check_verilator() {
 }
 
 verilator_example() {
-    EX_DIR="/ubuntu-base/lab0/verilog"
+    EX_DIR="/ubuntu-base/example/verilog"
     pushd "$EX_DIR" > /dev/null
     make clean && make run
     popd > /dev/null
